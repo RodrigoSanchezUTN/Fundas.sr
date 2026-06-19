@@ -1,0 +1,19 @@
+{
+  "name": "Feliz cumple wachin",
+  "short_name": "Cumple",
+  "description": "Pagina de cumple con foto y sonido.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#161616",
+  "theme_color": "#151515",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

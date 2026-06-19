@@ -1,0 +1,331 @@
+/*
+Theme Name: MovilShop Child
+Theme URI: https://example.com/movilshop-child
+Description: Tema hijo de Storefront para tienda/catalogo de accesorios de celular.
+Author: Codex
+Template: storefront
+Version: 1.0.0
+Text Domain: movilshop-child
+*/
+
+:root {
+    --ms-ink: #121417;
+    --ms-muted: #626b78;
+    --ms-line: #e5e7eb;
+    --ms-panel: #ffffff;
+    --ms-soft: #f6f8fb;
+    --ms-accent: #0f7cff;
+    --ms-accent-dark: #075dcc;
+    --ms-green: #18a957;
+}
+
+body {
+    background: var(--ms-soft);
+    color: var(--ms-ink);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    letter-spacing: 0;
+}
+
+a {
+    color: var(--ms-accent);
+}
+
+.site-header {
+    display: none;
+}
+
+.movilshop-topbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    min-height: 66px;
+    padding: 0 clamp(18px, 5vw, 64px);
+    border-bottom: 1px solid var(--ms-line);
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(14px);
+}
+
+.movilshop-topbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--ms-ink);
+    font-size: clamp(1.25rem, 3vw, 1.7rem);
+    font-weight: 950;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.movilshop-topbar-action {
+    margin-left: auto;
+    color: var(--ms-green);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.movilshop-menu-panel {
+    position: relative;
+}
+
+.movilshop-menu-panel summary {
+    display: grid;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    place-content: center;
+    border: 1px solid var(--ms-line);
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    list-style: none;
+}
+
+.movilshop-menu-panel summary::-webkit-details-marker {
+    display: none;
+}
+
+.movilshop-menu-panel summary span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 999px;
+    background: var(--ms-ink);
+}
+
+.movilshop-menu-panel nav {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    display: grid;
+    width: 230px;
+    padding: 8px;
+    border: 1px solid var(--ms-line);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.14);
+}
+
+.movilshop-menu-panel nav a {
+    min-height: 46px;
+    padding: 12px 14px;
+    border-radius: 6px;
+    color: var(--ms-ink);
+    font-weight: 850;
+    text-decoration: none;
+}
+
+.movilshop-menu-panel nav a:hover {
+    background: var(--ms-soft);
+}
+
+.site-branding .site-title a {
+    color: var(--ms-ink);
+    font-weight: 900;
+}
+
+.site-branding {
+    text-align: center;
+}
+
+.storefront-primary-navigation,
+.main-navigation ul.menu ul.sub-menu {
+    background: #fff;
+}
+
+.home .site-main,
+.page-template-template-homepage .site-main {
+    padding-top: 0;
+}
+
+.movilshop-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+    gap: 32px;
+    align-items: center;
+    margin: 0 0 36px;
+    padding: clamp(28px, 6vw, 64px);
+    border-radius: 8px;
+    background: linear-gradient(135deg, #0d1726 0%, #17243a 50%, #0f7cff 100%);
+    color: #fff;
+}
+
+.movilshop-hero h1 {
+    max-width: 760px;
+    margin: 0 0 14px;
+    color: #fff;
+    font-size: clamp(2.2rem, 4.6vw, 4.8rem);
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.movilshop-brand-title {
+    margin: 0 0 16px;
+    color: #fff;
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    font-weight: 950;
+    line-height: 0.95;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.movilshop-hero p {
+    max-width: 620px;
+    margin: 0 0 24px;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 1.08rem;
+}
+
+.movilshop-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.movilshop-hero .button,
+.movilshop-hero .wp-block-button__link {
+    border-radius: 6px;
+    background: #fff;
+    color: var(--ms-ink);
+    font-weight: 900;
+}
+
+.movilshop-hero .button.alt {
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    background: transparent;
+    color: #fff;
+}
+
+.movilshop-hero-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.movilshop-hero-gallery img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 18px 44px rgba(0, 0, 0, 0.24);
+}
+
+.movilshop-hero-gallery img:nth-child(1) {
+    grid-row: span 2;
+    aspect-ratio: 0.72;
+}
+
+ul.products li.product,
+.wc-block-grid__product {
+    overflow: hidden;
+    border: 1px solid var(--ms-line);
+    border-radius: 8px;
+    background: var(--ms-panel);
+}
+
+ul.products li.product img {
+    margin-bottom: 0;
+    background: #eef2f7;
+}
+
+ul.products li.product .woocommerce-loop-product__title,
+ul.products li.product .price,
+ul.products li.product .button {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+ul.products li.product .woocommerce-loop-product__title {
+    color: var(--ms-ink);
+    font-weight: 850;
+}
+
+ul.products li.product .price {
+    color: var(--ms-accent);
+    font-weight: 900;
+}
+
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    border-radius: 6px;
+    background: var(--ms-accent);
+    color: #fff;
+    font-weight: 850;
+}
+
+.button:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background: var(--ms-accent-dark);
+    color: #fff;
+}
+
+.site-footer {
+    border-top: 1px solid var(--ms-line);
+    background: #fff;
+    color: var(--ms-muted);
+}
+
+@media (max-width: 768px) {
+    .movilshop-hero {
+        grid-template-columns: 1fr;
+        padding: 26px 20px;
+        text-align: center;
+    }
+
+    .movilshop-hero h1,
+    .movilshop-hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .movilshop-hero-actions {
+        justify-content: center;
+    }
+
+    .movilshop-hero-gallery {
+        grid-template-columns: repeat(4, minmax(110px, 1fr));
+        overflow-x: auto;
+        padding-bottom: 4px;
+    }
+
+    .movilshop-hero-gallery img,
+    .movilshop-hero-gallery img:nth-child(1) {
+        min-width: 110px;
+        aspect-ratio: 1;
+    }
+}
+
+@media (max-width: 560px) {
+    .movilshop-topbar {
+        min-height: 64px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .movilshop-topbar-action {
+        font-size: 0;
+    }
+
+    .movilshop-topbar-action::before {
+        content: "Catalogo";
+        font-size: 0.9rem;
+    }
+
+    .movilshop-menu-panel nav {
+        position: fixed;
+        top: 66px;
+        left: 14px;
+        right: 14px;
+        width: auto;
+    }
+}

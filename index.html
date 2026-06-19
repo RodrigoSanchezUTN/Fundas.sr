@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101113" />
+    <title>Fundas.sr | Accesorios para iPhone</title>
+    <meta
+      name="description"
+      content="Catalogo mobile de Fundas.sr: fundas, cargadores, AirPods y cables para iPhone."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <button class="menu-button" type="button" aria-label="Abrir catalogos" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <a class="brand-mini" href="#inicio" aria-label="Ir al inicio">
+        <img src="assets/logo.jpeg" alt="" />
+        <span>Fundas.sr</span>
+      </a>
+
+      <a class="icon-link" href="https://www.instagram.com/fundas.sr/" target="_blank" rel="noreferrer" aria-label="Instagram de Fundas.sr">
+        IG
+      </a>
+    </header>
+
+    <nav class="drawer" aria-label="Catalogos">
+      <a href="#cargadores" data-close-menu>Cargadores</a>
+      <a href="#fundas" data-close-menu>Fundas</a>
+      <a href="#airpods" data-close-menu>AirPods</a>
+      <a href="#cables" data-close-menu>Cables</a>
+    </nav>
+
+    <div class="scrim" data-close-menu></div>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Accesorios esenciales. Calidad premium.</p>
+          <h1>Fundas.sr</h1>
+          <p class="intro">
+            Catalogo rapido para elegir tu accesorio y consultar precio directo por WhatsApp.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#catalogo">Ver catalogo</a>
+            <a class="secondary-action" href="https://www.instagram.com/fundas.sr/" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+        </div>
+
+        <div class="logo-stage" aria-label="Logo Fundas.sr">
+          <img src="assets/logo.jpeg" alt="Logo de Fundas.sr" />
+        </div>
+      </section>
+
+      <section class="founders" aria-label="Emprendedores">
+        <span>Emprendedores</span>
+        <a href="https://www.instagram.com/luchoferreyra9/" target="_blank" rel="noreferrer">Luciano Ferreyra</a>
+        <a href="https://www.instagram.com/brunoocorvalan/" target="_blank" rel="noreferrer">Bruno Corvalan</a>
+      </section>
+
+      <section id="catalogo" class="catalog">
+        <div class="section-heading">
+          <p>Catalogos</p>
+          <h2>Elegí tu producto</h2>
+        </div>
+
+        <section id="cargadores" class="category">
+          <h3>Cargadores</h3>
+          <div class="product-grid" data-category="Cargadores"></div>
+        </section>
+
+        <section id="fundas" class="category">
+          <h3>Fundas</h3>
+          <div class="product-grid" data-category="Fundas"></div>
+        </section>
+
+        <section id="airpods" class="category">
+          <h3>AirPods</h3>
+          <div class="product-grid" data-category="AirPods"></div>
+        </section>
+
+        <section id="cables" class="category">
+          <h3>Cables</h3>
+          <div class="product-grid" data-category="Cables"></div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <a class="instagram-pill" href="https://www.instagram.com/fundas.sr/" target="_blank" rel="noreferrer">
+        Seguir en Instagram
+      </a>
+      <p>Rodrigo Sanchez Derechos Reservados</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

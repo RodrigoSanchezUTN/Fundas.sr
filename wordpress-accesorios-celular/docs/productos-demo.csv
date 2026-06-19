@@ -1,0 +1,9 @@
+Type,SKU,Name,Published,Is featured?,Visibility in catalog,Short description,Description,Regular price,Categories,Images
+simple,AIRPODS-PRO-ANC,AirPods Pro ANC,1,1,visible,Auriculares inalambricos con estuche de carga y cancelacion activa.,Producto ideal para uso diario con conexion Bluetooth y estuche de carga.,0,AirPods Pro,airpods-pro.jpg
+simple,CARGADOR-USBC-20W,Cargador USB-C 20W,1,1,visible,Adaptador compacto de carga rapida USB-C.,Cargador practico para equipos compatibles con carga rapida.,0,Cargadores,cargador-usb-c-20w.jpg
+simple,CABLE-USBC-LIGHTNING-1M,Cable USB-C a Lightning 1m,1,1,visible,Cable para carga y transferencia ideal para iPhone.,Cable de 1 metro para uso diario.,0,Cables,cables-iphone.jpg
+simple,FUNDA-IP13,Funda silicona iPhone 13,1,1,visible,Funda de silicona con buen agarre y proteccion diaria.,Colores surtidos para iPhone 13.,0,Fundas,fundas-silicona-iphone-13.jpg
+simple,FUNDA-IP14-PRO,Funda silicona iPhone 14 Pro,1,0,visible,Colores surtidos para iPhone 14 Pro.,Funda de silicona con terminacion suave.,0,Fundas,fundas-silicona-iphone-14-pro.jpg
+simple,FUNDA-IP15-PRO,Funda silicona iPhone 15 Pro,1,1,visible,Terminacion suave, colores claros y oscuros.,Funda de silicona para iPhone 15 Pro.,0,Fundas,fundas-silicona-iphone-15-pro.jpg
+simple,FUNDA-IP16-PRO,Funda silicona iPhone 16 Pro,1,0,visible,Fundas para iPhone 16 Pro en varios colores.,Proteccion diaria con acabado suave.,0,Fundas,fundas-silicona-iphone-16-pro.jpg
+simple,FUNDA-IP17,Funda silicona iPhone 17,1,0,visible,Modelos nuevos con colores modernos.,Funda de silicona para iPhone 17.,0,Fundas,fundas-silicona-iphone-17.jpg
